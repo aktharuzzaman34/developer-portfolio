@@ -29,6 +29,7 @@ h2{
     margin-right: 5%;
     padding-left: 2%;
     padding-right: 2%;
+    border-radius: 10px;
     box-shadow: 10px 10px 50px rgb(71, 71, 71);
 }
 .half-width p{
@@ -53,4 +54,22 @@ h2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+}
+#full-stack-web{
+    border-left: 7px solid;
+    border-image: repeating-linear-gradient(30deg, #4d9f0c, #9198e5, #4d9f0c 20px) 60;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
