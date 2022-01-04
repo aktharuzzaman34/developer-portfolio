@@ -5,19 +5,34 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
 .blog p{
     text-align: justify;
 }
-section{
+.flecible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .blog{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 50px rgb(71, 71, 71);
+}
+.half-width p{
+    text-align: justify;
 }
 .blog img{
     width: 90%;
